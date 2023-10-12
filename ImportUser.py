@@ -11,9 +11,9 @@ import logging
 logging.basicConfig(filename='script.log', level=logging.INFO, format='%(asctime)s - %(message)s')  # Add timestamp
 
 # Load User to query
-sAMAccountName = "ABEAVER1"  # Define the samaccountname variable
-template_alias = "ALBQNM-standard"  # Replace with the desired template alias
-dtmf_access_id = "3928780"  # Replace with the desired dtmfAccessId
+sAMAccountName = "NetoworkName"  # Define the samaccountname variable
+template_alias = "template name"  # Replace with the desired template alias
+dtmf_access_id = "5551212"  # Replace with the desired dtmfAccessId
 
 payload = {
     "dtmfAccessId": dtmf_access_id,
